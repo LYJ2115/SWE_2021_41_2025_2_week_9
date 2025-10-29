@@ -17,13 +17,7 @@ def sum_of_squares_of_even(even_int_list: List[int]) -> int:
         number = i*i
         count = count+number
     return count
- """
- Computes the sum of the squares of all even numbers in a list of integers.
- Args:
- even_int_list: A list of even integers.
- Returns:
- The sum of the squares of all even numbers in the list.
- """
+    
  
 # Main function
 def main():
