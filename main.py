@@ -3,7 +3,7 @@ from typing import List
 def even_list(int_list: List[int]) -> List[int]:
     even_num = []
     for i in int_list:
-        if i%2 = 0:
+        if i%2 == 0:
             even_num.append(i)
         return even_num
  """
